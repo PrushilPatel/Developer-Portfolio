@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-/* NAVIGATION BAR STYLES*/
+/* NAVIGATION BAR STYLES STARTS*/
 
 .navbar-bg{
     background-color: #2AABE4;
@@ -12,3 +12,12 @@
 nav span {
   color: #FFCD24;
 }
+
+/* NAVIGATION BAR STYLES ENDS*/
+
+/* HERO SECTION STYLES STARTS*/
+
+.hero-img {
+    width: 400px;
+    height: 322px;
+  }
