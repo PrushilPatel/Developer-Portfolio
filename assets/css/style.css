@@ -1,0 +1,14 @@
+/* Resets all page by removing margin and padding*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGATION BAR STYLES*/
+
+.navbar-bg{
+    background-color: #2AABE4;
+}
+nav span {
+  color: #9dc8e4;
+}
