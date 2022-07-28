@@ -4,49 +4,49 @@
   padding: 0;
 }
 
-
 h1 {
-  color: #FFCD24;
+  color: #ffcd24;
 }
 h4 {
-  color: #FFCD24;
+  color: #ffcd24;
 }
 
 /* NAVIGATION BAR STYLES STARTS*/
 
-.navbar-bg{
-    background-color: #2AABE4;
+.navbar-bg {
+  background-color: #2aabe4;
 }
 nav span {
-  color: #FFCD24;
+  color: #ffcd24;
 }
 
 /* NAVIGATION BAR STYLES ENDS*/
 
-
 /* HERO SECTION STYLES STARTS*/
 
-
-.hero{
-  background-color: #2AABE4;
+.hero {
+  background-color: #2aabe4;
 }
 .hero-img {
-    width: 400px;
-    height: 322px;
-  }
+  width: 400px;
+  height: 322px;
+}
 
 /* HERO SECTION STYLES ENDS*/
 
-
 /* ABOUT ME SECTION STYLES ENDS*/
 
-  .bio-Pic{
-    width: 180px;
-    height: 180px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-  }
+.bio-Pic {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.about-me {
+  background-color: #2aabe4;
   
-  /* ABOUT ME STYLES ENDS*/
+}
+/* ABOUT ME STYLES ENDS*/
