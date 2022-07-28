@@ -5,12 +5,7 @@
 }
 
 
-h1 {
-  color: #ffcd24;
-  text-shadow:1.5px 1.5px #111;
-  font-family: 'Roboto', sans-serif;
-}
-h4 {
+h1, h2,h4  {
   color: #ffcd24;
   text-shadow:1.5px 1.5px #111;
   font-family: 'Roboto', sans-serif;
@@ -79,7 +74,14 @@ nav span {
 
 .icon-card{
   width: 18rem; 
-  margin-left: 60px;
+  margin-left: 100px;
+  margin-bottom: 80px;
+  border:2px solid #ffcd24
+}
+
+.icon {
+  width: 190px;
+  height: 180px;
 }
 
 /* SKILLS SECTION STYLES ENDS*/
