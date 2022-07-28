@@ -4,11 +4,16 @@
   padding: 0;
 }
 
+
 h1 {
   color: #ffcd24;
+  text-shadow:1.5px 1.5px #111;
+  font-family: 'Roboto', sans-serif;
 }
 h4 {
   color: #ffcd24;
+  text-shadow:1.5px 1.5px #111;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* NAVIGATION BAR STYLES STARTS*/
@@ -49,4 +54,18 @@ nav span {
   background-color: #2aabe4;
   
 }
+.about-me h2 {
+  text-align: center;
+  margin-bottom: 8px;
+  color: #ffcd24;
+  text-shadow:1.5px 1.5px #111;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-me p {
+  line-height:40px;
+  padding: 6.4px;
+  font-family: 'Roboto', sans-serif;
+}
+
 /* ABOUT ME STYLES ENDS*/
