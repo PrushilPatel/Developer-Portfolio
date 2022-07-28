@@ -90,3 +90,40 @@ nav span {
 }
 
 /* PROJECTS SECTION STYLES ENDS*/
+
+
+
+/* FOOTER SECTION STYLES STARTS*/
+.footer{
+  background-color: #2aabe4;
+}
+
+.contact-info {
+  color:#ffcd24 ;
+  background-color:#2aabe4;
+}
+.contact-icon {
+  padding-right: 20px;
+}
+
+table {
+  padding: 10px 10px 10px 10px;
+  margin-left: 10px;
+}
+th {
+  font-size: 25px;
+  padding-left: 12px;
+  text-align:center;
+}
+tr {
+  text-align:center;
+}
+
+.copyright {
+  color:#ffcd24 ;
+  text-align:center;
+  padding: 20px;
+  background-color: #2aabe4;
+}
+
+/* FOOTER SECTION STYLES ENDS*/
