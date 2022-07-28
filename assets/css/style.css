@@ -52,6 +52,7 @@ nav span {
 
 .about-me {
   background-color: #2aabe4;
+  padding-bottom: 10px;
   
 }
 .about-me h2 {
@@ -69,3 +70,16 @@ nav span {
 }
 
 /* ABOUT ME STYLES ENDS*/
+
+/* SKILLS SECTION STYLES START*/
+
+.skills{
+  background-color: #2aabe4;
+}
+
+.icon-card{
+  width: 18rem; 
+  margin-left: 60px;
+}
+
+/* SKILLS SECTION STYLES ENDS*/
