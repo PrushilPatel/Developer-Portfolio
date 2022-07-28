@@ -23,6 +23,7 @@ nav span {
 
 /* NAVIGATION BAR STYLES ENDS*/
 
+
 /* HERO SECTION STYLES STARTS*/
 
 
@@ -33,3 +34,19 @@ nav span {
     width: 400px;
     height: 322px;
   }
+
+/* HERO SECTION STYLES ENDS*/
+
+
+/* ABOUT ME SECTION STYLES ENDS*/
+
+  .bio-Pic{
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  
+  /* ABOUT ME STYLES ENDS*/
