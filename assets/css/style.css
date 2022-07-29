@@ -12,6 +12,12 @@ h4 {
   font-family: "Roboto", sans-serif;
 }
 
+
+
+.wrapper{
+  width: 90%;
+  margin: 0 auto;
+}
 /* NAVIGATION BAR STYLES STARTS*/
 
 .navbar-bg {
@@ -147,8 +153,8 @@ tr {
 
  /* NAVBAR SECTION STYLES STARTS*/
 
-.ml-250{
- margin-left:250px;
+.ml-180{
+ margin-left:180px;
 } ;
 
 /* NAVBAR SECTION STYLES ENDS*/ 
