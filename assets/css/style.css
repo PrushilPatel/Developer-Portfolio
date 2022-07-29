@@ -126,4 +126,30 @@ tr {
   background-color: #2aabe4;
 }
 
-/* FOOTER SECTION STYLES ENDS*/
+/* FOOTER SECTION STYLES ENDS */
+
+
+
+
+
+/************************** MEDIA QUERIES FOR MOBILE PHONES, TABLETS AND DESKTOP *****************************/
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+   /* HERO SECTION STYLES STARTS*/
+
+
+.hero-img {
+  width: 700px;
+  height: 564px;
+  padding-left: 100px;
+}
+
+/* HERO SECTION STYLES ENDS*/ 
+
+}
