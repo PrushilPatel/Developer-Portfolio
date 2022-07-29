@@ -140,9 +140,16 @@ tr {
   and (max-device-width: 1280px) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
+ /* NAVBAR SECTION STYLES STARTS*/
 
-   /* HERO SECTION STYLES STARTS*/
+.ml-250{
+ margin-left:250px;
+} ;
 
+/* NAVBAR SECTION STYLES ENDS*/ 
+
+
+ /* HERO SECTION STYLES STARTS*/
 
 .hero-img {
   width: 700px;
