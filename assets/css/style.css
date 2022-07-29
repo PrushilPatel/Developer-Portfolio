@@ -35,8 +35,8 @@ nav span {
   background-color: #2aabe4;
 }
 .hero-img {
-  width: 400px;
-  height: 322px;
+  width: 360px;
+  height: 290px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -73,6 +73,7 @@ nav span {
   line-height: 40px;
   padding: 6.4px;
   font-family: "Roboto", sans-serif;
+  color: #33393D;
 }
 
 /* ABOUT ME STYLES ENDS*/
@@ -83,14 +84,19 @@ nav span {
   background-color: #2aabe4;
 }
 
-.icon-card {
-  width: 288px;
-  margin-left: 100px;
-}
 
-.icon {
-  width: 190px;
-}
+
+.skills-card{
+  background-color:#ffcd24; 
+  border: 2px solid #111; 
+  border-radius: 5px;
+  }
+  
+  
+  .skill-icon{
+  width:100px;
+  height:100px;
+  }
 
 /* SKILLS SECTION STYLES ENDS*/
 
@@ -159,11 +165,5 @@ tr {
 
 /* NAVBAR SECTION STYLES ENDS*/ 
 
-
- /* HERO SECTION STYLES STARTS*/
-
-
-
-/* HERO SECTION STYLES ENDS*/ 
 
 }
