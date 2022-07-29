@@ -98,7 +98,12 @@ nav span {
 /* PROJECTS SECTION STYLES STARTS*/
 .projects {
   padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #2aabe4;
+}
+.project-img {
+  width: 237px;
+  height: 200px;
 }
 
 /* PROJECTS SECTION STYLES ENDS*/
@@ -114,6 +119,7 @@ nav span {
 }
 .contact-icon {
   padding-right: 20px;
+  
 }
 
 table {
@@ -121,12 +127,17 @@ table {
   margin-left: 10px;
 }
 th {
-  font-size: 25px;
+  font-size: 16px;
   padding-left: 12px;
   text-align: center;
+  color: #ffcd24;
+
 }
 tr {
   text-align: center;
+}
+td{
+  font-size: 14px;
 }
 
 .copyright {
