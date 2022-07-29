@@ -155,9 +155,9 @@ td {
 /* FOOTER SECTION STYLES ENDS */
 
 /************************** MEDIA QUERIES FOR MOBILE PHONES, TABLETS AND DESKTOP *****************************/
+/*Landscape ipad mini*/
 
-/*Landscape */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1050px)and (orientation : landscape){
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)and (orientation : landscape){
   /* NAVBAR SECTION STYLES STARTS*/
 
   .margin-left {
@@ -167,27 +167,35 @@ td {
   /* NAVBAR SECTION STYLES ENDS*/
 
   /* FOOTER SECTION STYLES STARTS*/
+
   table {
-    margin-left: 380px;
+    margin-left: 350px;
+    
   }
 
   /* FOOTER SECTION STYLES ENDS */
 }
 
-/*Pportrait */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1050px)and (orientation : portrait ){
+
+/*Portrait ipad mini*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)and (orientation : portrait ){
   /* NAVBAR SECTION STYLES STARTS*/
 
   .margin-left {
-    margin-left: 180px;
+    margin-left: 210px;
   }
 
   /* NAVBAR SECTION STYLES ENDS*/
 
   /* FOOTER SECTION STYLES STARTS*/
+  footer{
+    padding-bottom: 130px;
+  }
   table {
     margin-left: 220px;
+    
   }
 
   /* FOOTER SECTION STYLES ENDS */
