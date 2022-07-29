@@ -12,9 +12,7 @@ h4 {
   font-family: "Roboto", sans-serif;
 }
 
-
-
-.wrapper{
+.wrapper {
   width: 90%;
   margin: 0 auto;
 }
@@ -73,7 +71,7 @@ nav span {
   line-height: 40px;
   padding: 6.4px;
   font-family: "Roboto", sans-serif;
-  color: #33393D;
+  color: #33393d;
 }
 
 /* ABOUT ME STYLES ENDS*/
@@ -84,19 +82,16 @@ nav span {
   background-color: #2aabe4;
 }
 
-
-
-.skills-card{
-  background-color:#ffcd24; 
-  border: 2px solid #111; 
+.skills-card {
+  background-color: #ffcd24;
+  border: 2px solid #111;
   border-radius: 5px;
-  }
-  
-  
-  .skill-icon{
-  width:100px;
-  height:100px;
-  }
+}
+
+.skill-icon {
+  width: 100px;
+  height: 100px;
+}
 
 /* SKILLS SECTION STYLES ENDS*/
 
@@ -108,16 +103,14 @@ nav span {
 
 /* PROJECTS SECTION STYLES ENDS*/
 
-
-
 /* FOOTER SECTION STYLES STARTS*/
-.footer{
+.footer {
   background-color: #2aabe4;
 }
 
 .contact-info {
-  color:#ffcd24 ;
-  background-color:#2aabe4;
+  color: #ffcd24;
+  background-color: #2aabe4;
 }
 .contact-icon {
   padding-right: 20px;
@@ -130,40 +123,30 @@ table {
 th {
   font-size: 25px;
   padding-left: 12px;
-  text-align:center;
+  text-align: center;
 }
 tr {
-  text-align:center;
+  text-align: center;
 }
 
 .copyright {
-  color:#ffcd24 ;
-  text-align:center;
+  color: #ffcd24;
+  text-align: center;
   padding: 20px;
   background-color: #2aabe4;
 }
 
 /* FOOTER SECTION STYLES ENDS */
 
-
-
-
-
 /************************** MEDIA QUERIES FOR MOBILE PHONES, TABLETS AND DESKTOP *****************************/
 
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 820px) 
-  and (max-device-width: 1280px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 820px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1) {
+  /* NAVBAR SECTION STYLES STARTS*/
 
- /* NAVBAR SECTION STYLES STARTS*/
+  .ml-180 {
+    margin-left: 180px;
+  }
 
-.ml-180{
- margin-left:180px;
-} ;
-
-/* NAVBAR SECTION STYLES ENDS*/ 
-
-
+  /* NAVBAR SECTION STYLES ENDS*/
 }
