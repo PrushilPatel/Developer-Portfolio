@@ -12,10 +12,7 @@ h4 {
   font-family: "Roboto", sans-serif;
 }
 
-.wrapper {
-  width: 90%;
-  margin: 0 auto;
-}
+
 /* NAVIGATION BAR STYLES STARTS*/
 
 .navbar-bg {
@@ -89,8 +86,8 @@ nav span {
 }
 
 .skill-icon {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 /* SKILLS SECTION STYLES ENDS*/
@@ -152,7 +149,7 @@ td{
 /************************** MEDIA QUERIES FOR MOBILE PHONES, TABLETS AND DESKTOP *****************************/
 
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 820px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (max-width: 768px) {
   /* NAVBAR SECTION STYLES STARTS*/
 
   .ml-180 {
