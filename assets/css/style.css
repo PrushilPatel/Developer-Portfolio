@@ -96,6 +96,7 @@ nav span {
 
 .skills-card {
   background-color: #ffcd24;
+
   border: 2px solid #111;
   border-radius: 5px;
 }
@@ -359,4 +360,15 @@ td {
   height: 590px;
   
 }
-  }
+/****************************************************************************************************/
+
+.skills {
+  padding-bottom: 100px;
+}
+
+.skill-icon {
+  width: 200px;
+  height: 200px;
+}
+  
+}
