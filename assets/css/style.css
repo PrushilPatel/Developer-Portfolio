@@ -24,6 +24,18 @@ nav span {
   color: #ffcd24;
 }
 
+.margin-left {
+  margin-left: 800px;
+ 
+ }
+ .navbar-brand{
+   padding-right: 900px;
+ }
+ .nav-link{
+  font-size: 24px;
+ 
+}
+
 /* NAVIGATION BAR STYLES ENDS*/
 
 /* HERO SECTION STYLES STARTS*/
