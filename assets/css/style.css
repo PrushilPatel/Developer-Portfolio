@@ -250,8 +250,26 @@ td {
   /* FOOTER SECTION STYLES ENDS */
 }
 
-/* Media Query for Laptops and Desktops */
-@media (min-width: 1025px) and (max-width: 1600px) {
+/* Media Query for Laptops */
+@media (min-width: 1200px) and (max-width: 1600px) {
+
+/* NAVBAR SECTION STYLES STARTS*/
+
+.margin-left {
+ margin-left: 400px;
+
+}
+
+.nav-link{
+  font-size: 20px;
+}
+
+/* NAVBAR SECTION STYLES ENDS*/
+
+
+
+
+
   .aboutme-body {
     width: 50%;
     float: left;
