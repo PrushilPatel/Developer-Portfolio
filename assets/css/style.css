@@ -382,20 +382,4 @@ td {
 }
 
 
-@media (min-width: 1901px) and (max-width: 2560px){
-
- 
-   .navbar-brand{
-     padding-right: 700px;
-   }
-   
-   .nav-link{
-     font-size: 24px;
-    
-   }
-
-}
-
-
-
 }
