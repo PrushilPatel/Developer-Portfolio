@@ -71,14 +71,14 @@ nav span {
   float: left;
   background-color: #064ec6;
   width: 100%;
-  height: 800px;
+  height: 600px;
   border-radius: 10px;
   padding-top: 20px;
   padding-right: 30px;
   padding-left: 30px;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
-  line-height: 40px;
+  line-height: 30px;
 }
 
 
@@ -91,7 +91,7 @@ nav span {
 
 .skills {
   background-color: #4083f2;
-  padding-bottom: 30px;
+  padding-top: 50px;
 }
 
 .skills-card {
@@ -181,7 +181,7 @@ td {
 /************************** MEDIA QUERIES FOR MOBILE PHONES, TABLETS AND DESKTOP *****************************/
 /*Landscape ipad mini*/
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: landscape) {
+@media only screen and  (min-device-width: 320px) and (min-device-width: 768px) {
   /* NAVBAR SECTION STYLES STARTS*/
 
   .margin-left {
@@ -190,10 +190,11 @@ td {
 
   /* NAVBAR SECTION STYLES ENDS*/
   .aboutme-img {
-    width: 600px;
-    height: 483px;
-    margin-top: 250px;
-    padding-right: 100px;
+    width: 500px;
+    height: 403px;
+    margin-top: 150px;
+    padding-right: 10px;
+    padding-bottom: 20px;
   }
 
   .aboutme-body {
@@ -208,17 +209,18 @@ td {
     float: left;
     background-color: #064ec6;
     width: 100%;
-    height: 670px;
-    border-radius: 10px;
+    height: 650px;
+   
     padding-top: 20px;
     padding-right: 30px;
     padding-left: 30px;
   }
 
+  
   /* FOOTER SECTION STYLES STARTS*/
 
   table {
-    margin-left: 350px;
+    margin-left: 320px;
   }
   td{
     padding-right: 30px;
@@ -226,7 +228,7 @@ td {
 
   /* FOOTER SECTION STYLES ENDS */
 }
-
+/***********************************************************************************************************************/
 /*Portrait ipad mini*/
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
@@ -238,12 +240,14 @@ td {
 
   /* NAVBAR SECTION STYLES ENDS*/
   .aboutMe-text {
-    height: 500px;
+    height: 400px;
+    
+    
   }
   /* FOOTER SECTION STYLES STARTS*/
  
   table {
-    margin-left: 220px;
+    margin-left: 170px;
   }
   td {
     padding-right: 30px;
@@ -252,26 +256,43 @@ td {
   /* FOOTER SECTION STYLES ENDS */
 }
 
+
+
+
+
+
+
+/**************************************************************************************************************/
+
+
 /* Media Query for Laptops */
 @media (min-width: 1200px) and (max-width: 1600px) {
 
 /* NAVBAR SECTION STYLES STARTS*/
 
 .margin-left {
- margin-left: 400px;
+ margin-left: 500px;
 
+}
+.navbar-brand{
+  padding-right: 400px;
 }
 
 .nav-link{
-  font-size: 20px;
+  font-size: 24px;
+ 
 }
 
 /* NAVBAR SECTION STYLES ENDS*/
 
+ /*hero*/
+.hero-img {
+  padding-top: 50px;
+  width: 610px;
+  height: 580px;
 
-
-
-
+}
+ /*about me*/
   .aboutme-body {
     width: 50%;
     float: left;
@@ -279,13 +300,22 @@ td {
   }
 
   .aboutMe-text {
-    float: left;
-    background-color: #064ec6;
-    width: 100%;
-    height: 271px;
-    border-radius: 10px;
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-left: 30px;
+    height: 400px;
+    line-height: 40px;
   }
+
+  .aboutme-img {
+    width: 660px;
+    height: 590px;
+    
+  }
+
+  /*footer*/
+  table {
+    margin-left: 600px;
+  }
+  td {
+    padding-right: 30px;
+  }
+
 }
