@@ -120,7 +120,13 @@ nav span {
   width: 400px;
   height: 337px;
 }
+.card-title{
+  color: #ffffff;
+}
 
+.card-text {
+  color: #ffffff;
+}
 /* PROJECTS SECTION STYLES ENDS*/
 
 /* FOOTER SECTION STYLES STARTS*/
@@ -136,6 +142,8 @@ nav span {
 
 .contact-icon {
   padding-right: 20px;
+  width: 100px;
+ 
 }
 
 table {
@@ -171,7 +179,7 @@ td {
 /************************** MEDIA QUERIES FOR MOBILE PHONES, TABLETS AND DESKTOP *****************************/
 /*Landscape ipad mini*/
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: landscape) {
   /* NAVBAR SECTION STYLES STARTS*/
 
   .margin-left {
@@ -210,6 +218,9 @@ td {
   table {
     margin-left: 350px;
   }
+  td{
+    padding-right: 30px;
+  }
 
   /* FOOTER SECTION STYLES ENDS */
 }
@@ -228,11 +239,12 @@ td {
     height: 500px;
   }
   /* FOOTER SECTION STYLES STARTS*/
-  footer {
-    padding-bottom: 130px;
-  }
+ 
   table {
     margin-left: 220px;
+  }
+  td {
+    padding-right: 30px;
   }
 
   /* FOOTER SECTION STYLES ENDS */
