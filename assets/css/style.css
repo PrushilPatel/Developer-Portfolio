@@ -324,10 +324,11 @@ td {
   }
 
   .hero-img {
-    width: 600px;
-    height: 600px;
+    width: 650px;
+    height: 650px;
     position: relative;
-    left: 1000px;
+    top: 50px;
+    left: 1120px;
   }
   
   .hero-title {
