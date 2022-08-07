@@ -81,10 +81,11 @@ nav span {
 
 .aboutMe-text {
   float: left;
-  background-color: #064ec6;
+ /*background-color: #064ec6;
+ 
+  border-radius: 10px;*/
   width: 100%;
   min-height: 400px;
-  border-radius: 10px;
   padding-top: 20px;
   padding-right: 30px;
   padding-left: 30px;
@@ -194,7 +195,9 @@ td {
 
 
 @media only screen and (min-width:375px) and (min-width:768px){
-
+  .navbar-brand{
+    padding-right: 70px
+  }
   .nav-link{
     font-size: 20px;
   }
@@ -253,11 +256,11 @@ td {
 @media only screen and (min-width:1024px) and (min-width:1440px){
 
   .navbar-brand{
-   padding-right: 450px;
+   padding-right: 700px;
    
   }
   .nav-link{
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .aboutme-img {
@@ -298,14 +301,14 @@ td {
 
 }
 
-@media only screen and (min-width:1601px)and (max-width:2560px) {
+@media only screen and (min-width:1601px)and (max-width:1920px) {
 
   .navbar-brand{
-    padding-right: 1100px;
+    padding-right:990px;
    }
 
    .nav-link{
-    font-size: 30px;
+    font-size: 20px;
   }
   .aboutme-img {
     width: 900px;
