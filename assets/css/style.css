@@ -45,9 +45,18 @@ nav span {
   width: 360px;
   height: 290px;
   position: relative;
-  left: 30px;
+  left: 10px;
 }
 
+.hero-title {
+  text-align: center;
+  padding: 10px 10px 10px 10px; 
+  text-shadow: 1.5px 1.5px #111;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: #ffcd24;
+  text-shadow: 1.5px 1.5px #111;
+}
 /* HERO SECTION STYLES ENDS*/
 
 /* ABOUT ME SECTION STYLES ENDS*/
