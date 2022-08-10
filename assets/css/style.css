@@ -39,21 +39,23 @@ nav span {
 
 .hero {
   background-color: #064ec6;
+  min-height:880px;
+
 }
 
 .hero-img {
   width: 360px;
   height: 290px;
   position: relative;
+  top: 50px;
   left: 10px;
 }
 
 .hero-title {
-  text-align: center;
-  padding: 10px 10px 10px 10px; 
+  padding: 100px 10px 10px 10px; 
   text-shadow: 1.5px 1.5px #111;
   font-family: 'Playfair Display', serif;
-  font-size: 16px;
+  font-size: 50px;
   color: #ffcd24;
   text-shadow: 1.5px 1.5px #111;
 }
@@ -85,14 +87,12 @@ nav span {
 
 .aboutMe-text {
   float: left;
- /*background-color: #064ec6;
- 
-  border-radius: 10px;*/
   width: 100%;
   min-height: 400px;
   padding-top: 20px;
   padding-right: 30px;
   padding-left: 30px;
+  padding-bottom: 40px;
   font-family: "Roboto", sans-serif;
   color: #dcdcdc;
   line-height: 30px;
@@ -205,6 +205,7 @@ td {
   .nav-link{
     font-size: 20px;
   }
+
   .hero-img {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -328,9 +329,6 @@ td {
    .nav-link{
     font-size: 20px;
   }
-  .hero {
-    min-height: 880px;
-  }
 
   .hero-img {
     width: 650px;
@@ -357,15 +355,15 @@ td {
     
   }
   .aboutme-img {
-    width: 900px;
-    height: 724px;
+    width: 700px;
+    height: 564px;
     margin-top: 150px;
   }
 
   .aboutMe-text {
-    max-width: 1207px;
-    line-height: 80px;
-    font-size: 24px;
+    max-width: 1190px;
+    line-height: 50px;
+    font-size: 20px;
   }
 
   .skills {
@@ -375,8 +373,8 @@ td {
   }
 
   .skill-icon {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   
   }
 
