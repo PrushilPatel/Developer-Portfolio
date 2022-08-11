@@ -43,26 +43,34 @@ nav span {
 /* HERO SECTION STYLES STARTS*/
 
 .hero {
+ 
+  min-height:850px;
   background-color: #064ec6;
-  min-height:880px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+
 
 }
 
 .hero-img {
   width: 360px;
-  height: 290px;
+  max-width: 100%;
+  height: auto;
   position: relative;
   top: 50px;
   left: 10px;
 }
 
 .hero-title {
-  padding: 100px 10px 10px 10px; 
-  text-shadow: 1.5px 1.5px #111;
+  font-size: 60px;
   font-family: 'Playfair Display', serif;
-  font-size: 50px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
   color: #ffcd24;
-  text-shadow: 1.5px 1.5px #111;
+
 }
 /* HERO SECTION STYLES ENDS*/
 
@@ -203,15 +211,6 @@ td {
     font-size: 16px;
   }
 
-  .hero-img {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 610px;
-    height: 580px;
-    position: relative;
-    left: 80px;
-  
-  }
   .aboutMe-text {
     min-height: 400px;
     line-height: 40px;
@@ -231,13 +230,7 @@ td {
     padding-right: 240px;
   }
 
-  .hero-img {
-    padding-top: 50px;
-    width: 610px;
-    height: 580px;
-    position: relative;
-    left: 200px;
-  }
+ 
 
   .aboutMe-text {
     
@@ -267,12 +260,6 @@ td {
   .nav-link{
     font-size: 20px;
   }
-
-  .hero-img {
-    position: relative;
-    left: 400px;
-  }
-
 
   .aboutMe-text {
    
@@ -318,23 +305,12 @@ td {
 
   .hero-img {
     width: 650px;
-    height: 650px;
-    position: relative;
-    top: 50px;
-    left: 1120px;
+    left: 350px;
+   
   }
   
   .hero-title {
-    float: left;
-    background-color: #4083f2;
-    border-radius: 10px 50px;
     padding: 80px 80px 80px 80px;
-    border: 2px solid #ffffff;
-    text-shadow: 1.5px 1.5px #111;
-    font-family: 'Playfair Display', serif;
-    font-size: 40px;
-    color: #ffcd24;
-    text-shadow: 1.5px 1.5px #111;
     position: absolute;
     top: 270px;
     left: 200px;
