@@ -9,6 +9,8 @@
   text-shadow: 1.5px 1.5px #111;
   font-family: "Roboto", sans-serif;
   text-align: center;
+  
+
 }
 
 /* NAVIGATION BAR STYLES STARTS*/
@@ -27,7 +29,10 @@ nav span {
 
  .nav-link{
   font-size: 24px;
-  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 20px;
  }
 
 
@@ -203,7 +208,7 @@ td {
     padding-right: 70px
   }
   .nav-link{
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .hero-img {
@@ -327,7 +332,7 @@ td {
    }
 
    .nav-link{
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .hero-img {
