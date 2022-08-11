@@ -101,7 +101,7 @@ nav span {
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: white;
+  color: #111;
 }
 
 .skills-card {
@@ -122,52 +122,46 @@ nav span {
   max-width: 100%;
   padding: 30px 30px 30px 30px;
 }
-.skills {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-}
 .skill-icon {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   background-color: #064ec6;
   border-radius: 10px;
   margin: 5px 5px 5px 5px;
   
   
 }
-.myskills{
-  margin-top: 80px;
-  margin-left:200px
-}
+/*.myskills{
+  
+}*/
+
 .html {
- width: 400px; 
+ width: 250px; 
  height:40px; 
  background-color: #04AA6D; 
 
 }
 
 .css {
-width: 50%;
+width: 80%;
 height:40px; 
 background-color: #2196F3;
 }
 
 .js {
-width: 40%; 
+width: 60%; 
 height:40px;
 background-color: #f44336;
 }
 
 .bootstrap {
-width: 35%; 
+width: 45%; 
 height:40px;
 background-color: #808080;
 }
 
 .git {
-width: 40%; 
+width: 45%; 
 height:40px; 
 background-color: #ffcd24;
 }
@@ -187,10 +181,12 @@ background-color: #ffcd24;
 }
 .card-title {
   color: #dcdcdc;
+  text-align: left;
 }
 
 .card-text {
   color: #dcdcdc;
+  text-align: left;
 }
 /* PROJECTS SECTION STYLES ENDS*/
 
