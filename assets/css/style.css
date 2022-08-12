@@ -113,7 +113,9 @@ nav span {
   width: 900px;
   max-width: 100%;
   padding: 30px 30px 30px 30px;
+  border-radius: 5px;
 }
+
 .skill-icon {
   width: 70px;
   height: 70px;
@@ -123,8 +125,6 @@ nav span {
   
   
 }
-
-
 .html {
  width: 250px; 
  height:40px; 
@@ -255,9 +255,7 @@ td {
     line-height: 40px;
     font-size: 20px;
   }
-  .skills {
-    padding-top: 50px;
-  }
+ 
   .skills__img{
     width: 700px;
     padding: 30px 60px 30px 30px;
@@ -265,7 +263,7 @@ td {
 
   td {
     padding-right: 30px;
-    font-size: 24px;
+    font-size: 17px;
   }
 }
 
@@ -279,7 +277,7 @@ td {
     font-size: 25px;
   }
   .skill-icon {
-    width: 150px;
+    width: 80px;
     background-color: #064ec6;
     border-radius: 10px;
     margin: 5px 5px 5px 5px;
@@ -288,12 +286,13 @@ td {
     width: 450px;
     padding: 30px 60px 0px 30px;
   }
+  
   th{
     font-size: 30px;
   }
   td {
     padding-right: 30px;
-    font-size: 30px;
+    font-size: 16px;
   }
 }
 @media only screen and (min-width: 1024px) and (min-width: 1440px) {
@@ -310,10 +309,6 @@ td {
     font-size: 25px;
   }
 
-  .skills {
-    padding-top: 50px;
-    padding-bottom: 130px;
-  }
   .skills__img{
     width: 600px;
     padding: 30px 60px 0px 30px;
@@ -332,7 +327,7 @@ td {
   }
   td {
     padding-right: 30px;
-    font-size: 30px;
+    font-size: 16px;
   }
 }
 
@@ -362,14 +357,11 @@ td {
     line-height: 50px;
     font-size: 20px;
   }
-  .skills {
-    padding-top: 50px;
-    padding-bottom: 160px;
-  }
+
 
   .skill-icon {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: auto;
   }
   .skills__img{
     width: 800px;
@@ -377,10 +369,6 @@ td {
    
   }
 
-  .project-img {
-    width: 65%;
-    height: 60%;
-  }
   .card-title {
     font-size: 24px;
   }
@@ -394,6 +382,6 @@ td {
   }
   td {
     padding-right: 30px;
-    font-size: 20px;
+    font-size: 16px;
   }
 }
