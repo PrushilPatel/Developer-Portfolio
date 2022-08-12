@@ -68,7 +68,7 @@ nav span {
 /* ABOUT ME SECTION STYLES ENDS*/
 
 .aboutme-container {
-  background-color: #ffffff; 
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,7 +107,7 @@ nav span {
   border: 2px solid #111;
   border-radius: 5px;
 }
-.skills__img{
+.skills__img {
   float: right;
   width: 900px;
   max-width: 100%;
@@ -121,54 +121,51 @@ nav span {
   background-color: #064ec6;
   border-radius: 10px;
   margin: 5px 5px 5px 5px;
-  
-  
 }
 .html {
- width: 250px; 
- height:40px; 
- background-color: #2196F3; 
- border-radius: 5px;
- margin-left: 10px;
- border: 2px solid #ffffff;
+  width: 250px;
+  height: 40px;
+  background-color: #2196f3;
+  border-radius: 5px;
+  margin-left: 10px;
+  border: 2px solid #ffffff;
 }
 
 .css {
-width: 80%;
-height:40px; 
-background-color: #2196F3;
-border-radius: 5px;
-margin-left: 10px;
-border: 2px solid #ffffff;
+  width: 80%;
+  height: 40px;
+  background-color: #2196f3;
+  border-radius: 5px;
+  margin-left: 10px;
+  border: 2px solid #ffffff;
 }
 
 .js {
-width: 60%; 
-height:40px;
-background-color: #2196F3;
-border-radius: 5px;
-margin-left: 10px;
-border: 2px solid #ffffff;
+  width: 60%;
+  height: 40px;
+  background-color: #2196f3;
+  border-radius: 5px;
+  margin-left: 10px;
+  border: 2px solid #ffffff;
 }
 
 .bootstrap {
-width: 45%; 
-height:40px;
-background-color: #2196F3;
-border-radius: 5px;
-margin-left: 10px;
-border: 2px solid #ffffff;
+  width: 45%;
+  height: 40px;
+  background-color: #2196f3;
+  border-radius: 5px;
+  margin-left: 10px;
+  border: 2px solid #ffffff;
 }
 
 .git {
-width: 45%; 
-height:40px; 
-background-color: #2196F3;
-border-radius: 5px;
-margin-left: 10px;
-border: 2px solid #ffffff;
+  width: 45%;
+  height: 40px;
+  background-color: #2196f3;
+  border-radius: 5px;
+  margin-left: 10px;
+  border: 2px solid #ffffff;
 }
-
 
 /* SKILLS SECTION STYLES ENDS*/
 
@@ -193,7 +190,6 @@ border: 2px solid #ffffff;
 }
 /* PROJECTS SECTION STYLES ENDS*/
 
-
 /*CONTACT ME SECTION STYLES STARTS*/
 /*CODE FOR THIS SECTION WAS TAKEN FROM THE FOLLOWING SOURCE.
 https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#howtostyletheskillssection*/
@@ -201,12 +197,12 @@ https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#ho
 .contact {
   padding-top: 50px;
   padding-bottom: 32px;
-  background-color:  #4083f2;;
+  background-color: #4083f2;
 }
 .contact h2 {
   margin-bottom: 16px;
   color: #ffcd24;
-  text-shadow: 1.5px 1.5px black;;
+  text-shadow: 1.5px 1.5px black;
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
@@ -216,7 +212,7 @@ https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#ho
   padding: 15px;
   border-radius: 5px;
   margin: 0 auto;
-  box-shadow:0 0px 5px rgba(0, 0, 0, 1);
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 1);
   background-color: #064ec6;
 }
 .contact-form-container label {
@@ -227,7 +223,7 @@ https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#ho
 }
 
 .contact-form-container textarea {
-  min-height: 43px;;
+  min-height: 43px;
   font-size: 14px;
 }
 .contact-form-container .input-field {
@@ -250,7 +246,7 @@ https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#ho
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  background-color:  #4083f2;
+  background-color: #4083f2;
   border-radius: 5px;
   font-size: 16px;
   font-weight: bold;
@@ -258,20 +254,11 @@ https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#ho
   color: #ffcd24;
 }
 .submit-btn:hover {
-  background-color:#4267b2;
+  background-color: #4267b2;
   color: #ffcd24;
   cursor: pointer;
 }
 /*CONTACT ME SECTION ENDS*/
-
-
-
-
-
-
-
-
-
 
 /* FOOTER SECTION STYLES STARTS*/
 .footer {
@@ -334,8 +321,8 @@ td {
     line-height: 40px;
     font-size: 20px;
   }
- 
-  .skills__img{
+
+  .skills__img {
     width: 700px;
     padding: 30px 60px 30px 30px;
   }
@@ -361,12 +348,12 @@ td {
     border-radius: 10px;
     margin: 5px 5px 5px 5px;
   }
-  .skills__img{
+  .skills__img {
     width: 450px;
     padding: 30px 60px 0px 30px;
   }
-  
-  th{
+
+  th {
     font-size: 30px;
   }
   td {
@@ -388,10 +375,9 @@ td {
     font-size: 25px;
   }
 
-  .skills__img{
+  .skills__img {
     width: 600px;
     padding: 30px 60px 0px 30px;
-   
   }
 
   .card-title {
@@ -437,15 +423,13 @@ td {
     font-size: 20px;
   }
 
-
   .skill-icon {
     width: 100px;
     height: auto;
   }
-  .skills__img{
+  .skills__img {
     width: 800px;
     padding: 30px 60px 0px 30px;
-   
   }
 
   .card-title {
