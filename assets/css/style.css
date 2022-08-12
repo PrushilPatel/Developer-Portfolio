@@ -63,6 +63,20 @@ nav span {
   font-weight: bold;
   color: #ffcd24;
 }
+.hero-btn {
+  background-color: #4083f2;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+}
+
+.hero-btn:hover {
+  background-color: #2196f3;
+  color: white;
+}
 /* HERO SECTION STYLES ENDS*/
 
 /* ABOUT ME SECTION STYLES ENDS*/
