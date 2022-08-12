@@ -98,10 +98,10 @@ nav span {
 
 .skills {
   background-color: #4083f2;
-  text-align: right;
+  text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: #111;
+  color: #ffffff;
 }
 
 .skills-card {
@@ -138,32 +138,46 @@ nav span {
 .html {
  width: 250px; 
  height:40px; 
- background-color: #04AA6D; 
-
+ background-color: #2196F3; 
+ border-radius: 5px;
+ margin-left: 10px;
+ border: 2px solid #ffffff;
 }
 
 .css {
 width: 80%;
 height:40px; 
 background-color: #2196F3;
+border-radius: 5px;
+margin-left: 10px;
+border: 2px solid #ffffff;
 }
 
 .js {
 width: 60%; 
 height:40px;
-background-color: #f44336;
+background-color: #2196F3;
+border-radius: 5px;
+margin-left: 10px;
+border: 2px solid #ffffff;
 }
 
 .bootstrap {
 width: 45%; 
 height:40px;
-background-color: #808080;
+background-color: #2196F3;
+border-radius: 5px;
+margin-left: 10px;
+border: 2px solid #ffffff;
 }
 
 .git {
 width: 45%; 
 height:40px; 
-background-color: #ffcd24;
+background-color: #2196F3;
+border-radius: 5px;
+margin-left: 10px;
+border: 2px solid #ffffff;
 }
 
 
