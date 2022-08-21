@@ -36,7 +36,7 @@ Google fonts
 
 ## CDNs:
 1. Google fonts - used downloadable fonts to change the generic font style.
-2. icons8 - used downloadable icons that can be changed based on design needs. [icons8](icons8.com)
+2. icons8 - used downloadable icons that can be changed based on design needs. [icons8](https://icons8.com/)
 
 ## inspiration 
 
