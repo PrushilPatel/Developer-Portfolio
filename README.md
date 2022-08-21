@@ -54,7 +54,7 @@ Google fonts
 
 ## Deployment
 
-This project has been deployed using GitHub pages which is the platform which i have used to showcase my portfolio. During production I've been constantly committing any changes big or small to my repository by using the push method.
+This project has been deployed using GitHub pages which is the platform which i have used to showcase my portfolio. During production I've been constantly committing any changes big or small to my repository by using the push method. The current version at deployment is a stable one but can do with some improvements in terms of structural and visual layouts. Therefore, I plan on updating the code, so it includes bootstraps grid layout. This was something I came to understand at a later stage of development. 
 
 
 
