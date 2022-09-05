@@ -29,7 +29,7 @@ nav span {
 }
 
 .nav-link {
-  font-size: 24px;
+  font-size: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -49,21 +49,14 @@ nav span {
   padding: 40px 80px;
 }
 
-.hero-img {
-  width: 360px;
-  max-width: 100%;
-  height: auto;
-  position: relative;
-  top: 50px;
-  left: 10px;
-}
+
 
 .hero-title {
   font-size: 60px;
-  margin: 0;
   text-transform: uppercase;
   font-weight: bold;
   color: #ffcd24;
+ 
 }
 .hero-btn {
   background-color: #4083f2;
@@ -424,10 +417,7 @@ td {
     font-size: 16px;
   }
 
-  .hero-img {
-    width: 650px;
-    left: 350px;
-  }
+
 
   .hero-title {
     padding: 80px 80px 80px 80px;
