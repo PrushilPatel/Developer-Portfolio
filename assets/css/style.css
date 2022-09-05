@@ -41,7 +41,7 @@ nav span {
 /* HERO SECTION STYLES STARTS*/
 
 .hero {
-  min-height: 850px;
+  height: 100vh;
   background-color: #064ec6;
   display: flex;
   justify-content: center;
