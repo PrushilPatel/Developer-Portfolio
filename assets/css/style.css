@@ -191,8 +191,10 @@ nav span {
   background-color: #064ec6;
 }
 
-.project-img {
-  width: 100px;
+.project-group {
+  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
 }
 .card-title {
   color: #dcdcdc;
