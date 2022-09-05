@@ -59,7 +59,7 @@ nav span {
 }
 
 .hero-title {
-  font-size: 80px;
+  font-size: 60px;
   margin: 0;
   text-transform: uppercase;
   font-weight: bold;
@@ -434,6 +434,7 @@ td {
     position: absolute;
     top: 270px;
     left: 200px;
+    font-size: 80px;
   }
 
   .aboutMe-text {
