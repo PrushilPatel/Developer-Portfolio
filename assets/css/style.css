@@ -3,10 +3,9 @@
   margin: 0;
   padding: 0;
 }
-body{
+body {
   font-family: "Roboto", sans-serif;
 }
-
 
 h3 {
   color: #ffcd24;
@@ -54,7 +53,6 @@ nav span {
   text-transform: uppercase;
   font-weight: bold;
   color: #ffcd24;
- 
 }
 .hero-btn {
   background-color: #4083f2;
@@ -70,16 +68,13 @@ nav span {
   color: white;
 }
 
-
-.socials{
+.socials {
   padding-left: 30px;
   width: 200px;
 }
-.socials-icon{
+.socials-icon {
   width: 60px;
 }
-
-
 
 /* HERO SECTION STYLES ENDS*/
 
@@ -142,7 +137,6 @@ nav span {
 /* the folowing code is inspired by W3schools source: https://www.w3schools.com/howto/howto_css_skill_bar.asp */
 .html {
   width: 250px;
-  height: 40px;
   background-color: #2196f3;
   border-radius: 5px;
   margin-left: 10px;
@@ -151,7 +145,6 @@ nav span {
 
 .css {
   width: 80%;
-  height: 40px;
   background-color: #2196f3;
   border-radius: 5px;
   margin-left: 10px;
@@ -160,7 +153,6 @@ nav span {
 
 .js {
   width: 60%;
-  height: 40px;
   background-color: #2196f3;
   border-radius: 5px;
   margin-left: 10px;
@@ -169,7 +161,6 @@ nav span {
 
 .bootstrap {
   width: 45%;
-  height: 40px;
   background-color: #2196f3;
   border-radius: 5px;
   margin-left: 10px;
@@ -178,7 +169,6 @@ nav span {
 
 .git {
   width: 45%;
-  height: 40px;
   background-color: #2196f3;
   border-radius: 5px;
   margin-left: 10px;
@@ -335,15 +325,13 @@ td {
   .nav-link {
     font-size: 16px;
   }
-  .socials{
+  .socials {
     margin-left: 10px;
     padding-top: 190px;
     padding-left: 50px;
     width: 240px;
-}
-  
-  
-  
+  }
+
   .aboutMe-text {
     min-height: 400px;
     line-height: 40px;
@@ -433,8 +421,6 @@ td {
     font-size: 16px;
   }
 
-
-
   .hero-title {
     padding: 80px 80px 80px 80px;
     position: absolute;
@@ -443,12 +429,11 @@ td {
     font-size: 80px;
   }
 
-  .socials{
+  .socials {
     margin-left: 500px;
     padding-top: 200px;
     padding-left: 50px;
     width: 240px;
-  
   }
 
   .aboutMe-text {
