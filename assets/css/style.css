@@ -323,27 +323,6 @@ https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#ho
   width: 50px;
 }
 
-table {
-  padding: 10px 10px 10px 10px;
-  margin: 0 auto;
-}
-
-th {
-  font-size: 16px;
-  padding-left: 12px;
-  text-align: center;
-  color: #dcdcdc;
-}
-
-tr {
-  text-align: center;
-}
-
-td {
-  font-size: 14px;
-  color: #dcdcdc;
-}
-
 .copyright {
   color: #dcdcdc;
   text-align: center;
@@ -394,14 +373,6 @@ td {
     padding-bottom: 50px;
 }
 }
-  th {
-    font-size: 30px;
-  }
-  td {
-    padding-right: 30px;
-    font-size: 16px;
-  }
-
 @media only screen and (min-width: 1024px) and (min-width: 1440px) {
 
   .navbar-brand {
@@ -423,13 +394,6 @@ td {
     margin-left: 470px;
     padding-bottom: 50px;
 }
-  th {
-    font-size: 30px;
-  }
-  td {
-    padding-right: 30px;
-    font-size: 16px;
-  }
 }
 
 @media only screen and (min-width: 1601px) and (max-width: 1950px) {
@@ -467,11 +431,4 @@ td {
     margin-left: 600px;
     padding-bottom: 50px;
 }
-  th {
-    font-size: 24px;
-  }
-  td {
-    padding-right: 30px;
-    font-size: 16px;
-  }
 }
