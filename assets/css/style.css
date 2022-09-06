@@ -114,7 +114,6 @@ nav span {
   background-color: #4083f2;
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 100px;
   color: #ffffff;
 }
 
@@ -124,9 +123,13 @@ nav span {
 }
 
 .skills-img{
-  display: flex;
-  margin-right: 400px;
-  float: right;
+  
+      margin-top: 20px;
+      margin-bottom: 40px;
+      width: 320px;
+      height: 213px;
+      
+    
 }
 
 /* the following code is inspired by DarkCode and his you tube video
@@ -138,8 +141,8 @@ nav span {
   list-style: none;
 }
 .skillbar-container{
-  width: 600px;
-  margin-left: 200px;
+  width: 200px;
+  margin-left: 90px;
   padding-bottom: 50px;
 
 }
@@ -147,7 +150,9 @@ nav span {
 .skill-icon {
   background-color: #064ec6;
   border-radius: 10px;
-  float: left;
+  /* float: left; */
+  width: 30px;
+
   
 }
 
@@ -339,56 +344,44 @@ td {
 /************************** MEDIA QUERIES FOR MOBILE PHONES, TABLETS AND DESKTOP *****************************/
 
 @media only screen and (min-width: 375px) and (min-width: 768px) {
+
   .navbar-brand {
-    padding-right: 70px;
-  }
-  .nav-link {
-    font-size: 16px;
+    padding-right: 350px;
   }
   .socials {
-    margin-left: 10px;
-    padding-top: 190px;
+    margin-left: 200px;
+    padding-top: 110px;
     padding-left: 50px;
     width: 240px;
   }
-
-  .aboutMe-text {
-    min-height: 400px;
-    line-height: 40px;
-    font-size: 20px;
-  }
-
-  .skills__img {
-    width: 700px;
-    padding: 30px 60px 30px 30px;
-  }
-
-  td {
-    padding-right: 30px;
-    font-size: 17px;
-  }
+  .skillbar-container{
+    width: 400px;
+    margin-left: 180px;
+    padding-bottom: 50px;
 }
+.skills__img {
+  width: 600px;
+  padding: 30px 60px 0px 30px;
+}
+  
+  }
+
+
 
 @media only screen and (min-width: 1024px) {
-  .navbar-brand {
-    padding-right: 240px;
-  }
-
-  .aboutMe-text {
-    line-height: 40px;
-    font-size: 25px;
-  }
+  
   .skill-icon {
-    width: 80px;
+    width: 60px;
     background-color: #064ec6;
     border-radius: 10px;
     margin: 5px 5px 5px 5px;
   }
-  .skills__img {
+  .skillbar-container{
     width: 450px;
-    padding: 30px 60px 0px 30px;
-  }
-
+    margin-left: 290px;
+    padding-bottom: 50px;
+}
+}
   th {
     font-size: 30px;
   }
@@ -396,13 +389,15 @@ td {
     padding-right: 30px;
     font-size: 16px;
   }
-}
+
 @media only screen and (min-width: 1024px) and (min-width: 1440px) {
+
   .navbar-brand {
     padding-right: 700px;
   }
+
   .nav-link {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .aboutMe-text {
@@ -411,18 +406,11 @@ td {
     font-size: 25px;
   }
 
-  .skills__img {
-    width: 600px;
-    padding: 30px 60px 0px 30px;
-  }
-
-  .card-title {
-    font-size: 40px;
-  }
-
-  .card-text {
-    font-size: 25px;
-  }
+  .skillbar-container{
+    width: 500px;
+    margin-left: 470px;
+    padding-bottom: 50px;
+}
   th {
     font-size: 30px;
   }
@@ -438,14 +426,10 @@ td {
   }
 
   .nav-link {
-    font-size: 16px;
+    font-size: 25px;
   }
 
   .hero-title {
-    padding: 80px 80px 80px 80px;
-    position: absolute;
-    top: 270px;
-    left: 200px;
     font-size: 80px;
   }
 
@@ -463,22 +447,14 @@ td {
   }
 
   .skill-icon {
-    width: 100px;
-    height: auto;
-  }
-  .skills__img {
-    width: 800px;
-    padding: 30px 60px 0px 30px;
-  }
+    width: 86px;
 
-  .card-title {
-    font-size: 24px;
   }
-
-  .card-text {
-    font-size: 24px;
-  }
-
+  .skillbar-container{
+    width: 700px;
+    margin-left: 600px;
+    padding-bottom: 50px;
+}
   th {
     font-size: 24px;
   }
