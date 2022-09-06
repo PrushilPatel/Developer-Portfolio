@@ -322,7 +322,10 @@ https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#ho
 
 @media only screen and (min-width: 375px) and (min-width: 768px) {
   .navbar-brand {
-    padding-right: 350px;
+    padding-right: 190px;
+  }
+  .nav-link {
+    font-size: 16px;
   }
   .socials {
     margin-left: 200px;
@@ -339,8 +342,24 @@ https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#ho
     width: 600px;
     padding: 30px 60px 0px 30px;
   }
+  .footer-container{
+    margin-bottom: 180px;
+  }
+  .contact-info {
+    width: 33.3%;
+    float: left;
+  }
+  .resources {
+    width:33.3%;
+  }
 }
 @media only screen and (min-width: 1024px) {
+  .navbar-brand {
+    padding-right: 320px;
+  }
+  .nav-link {
+    font-size: 25px;
+  }
   .skill-icon {
     width: 60px;
     background-color: #064ec6;
