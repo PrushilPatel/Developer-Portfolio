@@ -300,10 +300,22 @@ https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#ho
   background-color: #00153d;
   padding-top: 40px;
 }
+.contact-info{
+  margin-bottom: 60px;
+}
+.contact-header{
+  font-size: 20px;
+}
 
-.contact-info {
-  color: #ffcd24;
-  background-color: #2aabe4;
+.resources{
+  width: 50%;
+  float: left;
+}
+
+.site-map a{
+  text-decoration: none;
+  font-size: 10px;
+  color: #ffffff;
 }
 
 .contact-icon {
