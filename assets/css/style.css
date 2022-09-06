@@ -49,8 +49,6 @@ nav span {
   padding: 40px 80px;
 }
 
-
-
 .hero-title {
   font-size: 60px;
   text-transform: uppercase;
@@ -63,7 +61,6 @@ nav span {
   color: white;
   border-radius: 5px;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
   text-decoration: none;
   padding: 10px 10px 10px 10px;
 }
@@ -72,6 +69,19 @@ nav span {
   background-color: #2196f3;
   color: white;
 }
+
+
+.socials{
+  padding-left: 30px;
+  width: 200px;
+}
+.socials-icon{
+  width: 60px;
+
+}
+
+
+
 /* HERO SECTION STYLES ENDS*/
 
 /* ABOUT ME SECTION STYLES ENDS*/
@@ -95,7 +105,6 @@ nav span {
 .aboutMe-text {
   font-size: 15px;
   margin: 10px 0;
-  font-family: "Roboto", sans-serif;
   color: #111;
   line-height: 30px;
 }
