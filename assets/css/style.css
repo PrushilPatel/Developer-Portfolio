@@ -12,7 +12,7 @@ h3 {
   text-shadow: 1.5px 1.5px #111;
   text-align: center;
 }
-h4{
+h4 {
   text-align: left;
 }
 
@@ -122,29 +122,24 @@ nav span {
   border-radius: 5px;
 }
 
-.skills-img{
-  
-      margin-top: 20px;
-      margin-bottom: 40px;
-      width: 320px;
-      height: 213px;
-      
-    
+.skills-img {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 320px;
+  height: 213px;
 }
 
 /* the following code is inspired by DarkCode and his you tube video
  source: https://www.youtube.com/watch?v=3l4TQyYgOg4&t=353s */
 
-
-.skills li{
+.skills li {
   margin: 20px 0;
   list-style: none;
 }
-.skillbar-container{
+.skillbar-container {
   width: 200px;
   margin-left: 90px;
   padding-bottom: 50px;
-
 }
 
 .skill-icon {
@@ -152,11 +147,9 @@ nav span {
   border-radius: 10px;
   /* float: left; */
   width: 30px;
-
-  
 }
 
-.bar{
+.bar {
   background: #353b48;
   display: block;
   width: 100%;
@@ -165,35 +158,30 @@ nav span {
   box-shadow: 0 0 10px #ffffff;
 }
 
-.bar span{
+.bar span {
   height: 4px;
   float: left;
   background: #ffcd24;
 }
- .html {
+.html {
   width: 60%;
- 
 }
 
 .css {
   width: 50%;
-
 }
 
 .js {
   width: 40%;
-
 }
 
 .bootstrap {
   width: 35%;
-
 }
 
 .git {
   width: 35%;
-
-} 
+}
 
 /* SKILLS SECTION STYLES ENDS*/
 
@@ -202,12 +190,10 @@ nav span {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #064ec6;
-}.aboutme-container
-
-.project-link{
+}
+.aboutme-container .project-link {
   color: #ffcd24;
 }
-
 
 .project-group {
   justify-content: center;
@@ -300,19 +286,19 @@ https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#ho
   background-color: #00153d;
   padding-top: 40px;
 }
-.contact-info{
+.contact-info {
   margin-bottom: 60px;
 }
-.contact-header{
+.contact-header {
   font-size: 20px;
 }
 
-.resources{
+.resources {
   width: 50%;
   float: left;
 }
 
-.site-map a{
+.site-map a {
   text-decoration: none;
   font-size: 10px;
   color: #ffffff;
@@ -335,7 +321,6 @@ https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#ho
 /************************** MEDIA QUERIES FOR MOBILE PHONES, TABLETS AND DESKTOP *****************************/
 
 @media only screen and (min-width: 375px) and (min-width: 768px) {
-
   .navbar-brand {
     padding-right: 350px;
   }
@@ -345,36 +330,30 @@ https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#ho
     padding-left: 50px;
     width: 240px;
   }
-  .skillbar-container{
+  .skillbar-container {
     width: 400px;
     margin-left: 180px;
     padding-bottom: 50px;
-}
-.skills__img {
-  width: 600px;
-  padding: 30px 60px 0px 30px;
-}
-  
   }
-
-
-
+  .skills__img {
+    width: 600px;
+    padding: 30px 60px 0px 30px;
+  }
+}
 @media only screen and (min-width: 1024px) {
-  
   .skill-icon {
     width: 60px;
     background-color: #064ec6;
     border-radius: 10px;
     margin: 5px 5px 5px 5px;
   }
-  .skillbar-container{
+  .skillbar-container {
     width: 450px;
     margin-left: 290px;
     padding-bottom: 50px;
-}
+  }
 }
 @media only screen and (min-width: 1024px) and (min-width: 1440px) {
-
   .navbar-brand {
     padding-right: 700px;
   }
@@ -389,11 +368,11 @@ https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#ho
     font-size: 25px;
   }
 
-  .skillbar-container{
+  .skillbar-container {
     width: 500px;
     margin-left: 470px;
     padding-bottom: 50px;
-}
+  }
 }
 
 @media only screen and (min-width: 1601px) and (max-width: 1950px) {
@@ -424,11 +403,10 @@ https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#ho
 
   .skill-icon {
     width: 86px;
-
   }
-  .skillbar-container{
+  .skillbar-container {
     width: 700px;
     margin-left: 600px;
     padding-bottom: 50px;
-}
+  }
 }
