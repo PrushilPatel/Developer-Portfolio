@@ -11,10 +11,10 @@ The development of this project has shown me the importance of careful planning 
 
 ### Color and typography choices
 shades of blue
-1. #005aee - used for navigation bar
-2. #064ec6 - used for hero, projects, contact form container and skill icons background.
-3. #4083f2 - used for hero button, skills container, contact form and contact form submit button.
-4. #00153d - used for footer background.
+
+1. #064ec6 - used for hero, projects, contact form container and skill icons background. used for navigation bar
+2. #4083f2 - used for hero button, skills container, contact form and contact form submit button.
+3. #00153d - used for footer background.
 
 yellow
  #ffcd24 - used for headings
@@ -28,7 +28,7 @@ white
 Google fonts
 
 1. Roboto.
-2. Playfair Display.
+
 
 
 ## Technologies used:
@@ -43,7 +43,7 @@ Google fonts
 
 ## inspiration 
 
-1. W3Schools- skill bar
+1. SOURCE:[Darkcodes] https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#howtostyletheskillssection-  used for skill bar inspiration.
 2. freeCodeCamp- contact form code. [freeCodeCamp](https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#howtostyletheskillssection)
 
 ## Testing
